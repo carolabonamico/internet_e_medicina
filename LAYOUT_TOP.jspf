@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<HTML>
+  <HEAD>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <TITLE><c:if test="${ruolo_user == 'PAZ'}">Frankenstein - Area paziente</c:if>
+           <c:if test="${ruolo_user == 'MED'}">Frankenstein - Area medico</c:if>
+           <c:if test="${ruolo_user == 'PRES'}"> Frankenstein - Area presidente</c:if>
+           <c:if test="${ruolo_user == 'FRANK'}"> Frankenstein - Area super-admin Frankenstein</c:if>
+           <c:if test="${ruolo_user == 'RESP'}"> Frankenstein - Area responsabile</c:if>
+           <c:if test="${ruolo_user == 'FARM'}"> Frankenstein - Area ditta farmaceutica</c:if>
+           <c:if test="${empty ruolo_user}">Frankenstein - Area pubblica</c:if>
+    </TITLE>
+    <STYLE>   
+      .barra {
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        top:0;
+        left: 0;
+        right:0;
+      }
+
+      .menu a {
+        text-decoration:none;
+        }
+       
+      th.list {
+        background-color: #25544E;
+      }
+      
+      th.list:hover {  
+        background-color: #25544E;
+        border-bottom: 5px solid #468c7f;
+        transition: .1s;
+        transition-timing-function: cubic-bezier(.51,.23,.74,1.52);
+      }
+
+      th.list.active {  
+        color: #468c7f;
+      }
+
+      #th.list.active-link {  
+        color: #468c7f;
+      }
+
+      #pagina1:target, #pagina2:target, #pagina3:target, #pagina4:target, #pagina5:target, #pagina6:target, #pagina7:target, #pagina8:target, #pagina9:target, #pagina10:target, #pagina11:target, #pagina12:target, #pagina13:target, #pagina14:target, #pagina15:target, #pagina16:target, #pagina17:target, #pagina18:target, #pagina19:target, #pagina20:target, #pagina21:target, #pagina22:target, #pagina23:target, #pagina24:target, #pagina25:target, #pagina26:target, #pagina27:target, #pagina28:target{
+        color: #468c7f;
+      } 
+
+      #number {
+        width: 7em;
+      }
+    </STYLE>
+  </HEAD>
+      
+  <BODY bgcolor="#FFFFFF" style="font-family:Times New Roman" style="font-size:20" link="white" alink="white" vlink="white">    
+    
+    <!-- ===================== Intestazione ====================== -->
+    <div class="barra">
+      <tr height="10%" width="100%">
+        <td>
+          <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+
+            <c:if test="${not empty ruolo_user}">
+            <tr valign="middle" align="center">
+              <td width="20%">
+                <a href="index.htm">
+                  <img src="logunipv.gif" width="175" height="125" title="Home" align="center" alt="Logo Centro">
+                </a>
+              </td>
+              <td width="60%" style="color:#25544E">
+                <table valign="middle" align="center">
+                  <tr><h1> Centro Sperimentazioni Cliniche Frankenstein </h1></tr>
+                  <tr><h4> Loggato come: ${ruolo_user} <c:if test="${ruolo_user != 'FRANK'}">${username}</c:if></h4></tr>
+                </table>
+               </td>
+               <td width="20%" align="right" valign="middle">
+                  <table valign="middle" align="center" cellpadding="10">
+                    <tr>
+                      <td>
+                        <c:if test="${ruolo_user != 'FRANK'}">
+                        <a href="anagrafica.jsp">
+                          <img src="ANAGRAFICA.png" width="50" height="50" title="Anagrafica" align="center" alt="Logo Anagrafica">
+                        </a>
+                        </c:if>
+                        <c:if test="${ruolo_user == 'FRANK'}">
+                        &nbsp
+                        </c:if>
+                      </td>
+                      <td>
+                        <a href="logout.jsp">
+                          <img src="logout.gif" width="50" height="50" title="Logout" align="center" alt="Logo Logout">
+                        </a>
+                      </td>
+                   </tr>
+                  </table>
+                </td>
+            </tr>
+            </c:if>
+
+            <c:if test="${empty ruolo_user}">
+            <tr valign="middle" align="center">
+              <td width="25%" colspan="1">
+                <a href="index.htm">
+                  <img src="logunipv.gif" width="175" height="125" title="Home" align="center" alt="Logo Centro">
+                </a>
+              </td>
+              <td width="50%" style="color:#25544E" colspan="2">
+                <h1> Centro Sperimentazioni Cliniche Frankenstein </h1>
+               </td>
+               <td width="25%" align="right" valign="middle" colspan="1">
+                  <table valign="middle" align="center" cellpadding="10">
+                    <tr>
+                      <td> &nbsp </td>
+                      <td> &nbsp </td>
+                   </tr>
+                  </table>
+                </td>
+            </tr>
+            </c:if>
+
+          </table>
+        </td>
+      </tr>

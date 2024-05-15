@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <TITLE>Presentazione Progetto</TITLE>
+  <META NAME="Autore"  CONTENT="Gruppo 4">
+</HEAD>
+<font face="Helvetica">
+<BODY BGCOLOR="#ECFFDF">
+<font color="#25544E" size="4">
+  <H1 ALIGN="CENTER"> Centro Sperimentazioni Cliniche Frankenstein </H1>
+</font>
+<font color="#468C7F" size="4">
+  <H2 ALIGN="CENTER"> <cite>"Diamo la scossa alla ricerca scientifica"</cite></H2>
+</font>
+  <DIV ALIGN="CENTER">
+        <IMG BORDER="0" width="175" height="125"
+    				 SRC="Logo_descrizione.jpeg"
+             ALT="Logo">
+  </DIV>
+<!--SEZIONE CENTRALE DI ESPOSIZIONE DEL PROGETTO-->
+<DIV ALIGN="JUSTIFY">
+<table align="center" cellpadding="20">
+<tr>
+<td>
+
+<font color="#468C7F" size="4">
+<H2 ALIGN="left">Descrizione del sito:</H2>
+</font>
+<font size="4" color="#25544E">
+<P>Il sito si propone di rendere piu' agevole ed efficace la comunicazione e lo scambio di informazioni fra il "Centro Sperimentazioni
+  Cliniche Frankenstein" ed i componenti che prendono parte ad uno studio clinico. <BR>
+  Perche' questo prenda forma, infatti, gli attori che vi aderiscono devono poter comunicare fra di loro simultaneamente. <br>
+  Le Societa' Farmaceutiche, i Presidenti dei Comitati Tecnico-Scientifico-Etico ed i pazienti fanno riferimento ai Responsabili della Ricerca che si occupano di
+  ideare lo studio e, una volta approvato e finanziato, concretizzarlo.<BR>
+  Il sito del "Centro Sperimentazioni Cliniche Frankenstein" dispone di una pagina pubblica nella quale e' possibile visualizzare:
+<P>
+    <ul>
+      <li>Informazioni generali relative al centro (chi siamo, contatti, Codice Etico);</li>
+      <li>Sezione di Login e Registrazione;</li>
+      <li>Collegamenti ai profili social aziendali.</li>
+    </ul>
+Inoltre, nel banner superiore, cliccando su:
+
+<ul>
+<li>logo di Frankenstain (in alto a sinistra) l'utente puo' in ogni momento ritornare alla pagina Home del sito.</li>
+<li>icona dell'omino (in alto a destra) l'utente ha la possibilita' di visualizzare tutte le sue generalita'.</li>
+<li>icona di logout (in alto a destra) l'utente puo' in ogni momento effettuare il logout.</li>
+
+</ul>
+</P>
+</P>
+<P>
+  Effettuando il Login verranno visualizzate differenti aree di lavoro dedicate al ruolo specifico:
+  <ul>
+    <li>FRANK: profilo di gestione del Centro Sperimentazioni Cliniche;</li>
+    <li>RESP: Responsabile della Ricerca;</li>
+    <li>PRES: Presidente del Comitato Tecnico-Scientifico-Etico</li>
+    <li>PAZ: Volontario che si sottopone allo studio (Paziente);</li>
+    <li>FARM: Societa' Farmaceutica.</li>
+    <li>MED: Medico del Centro Frankestain.</li>
+  </ul>
+  <BR>
+</P>
+<p>
+<h4> FRANK</h4>
+Dopo aver effettuato il login, l'operatore FRANK ha accesso a tutte le funzionalita' che competono all'utente SuperAdmin. 
+Le pagine riservate a FRANK hanno molteplici funzionalita' riguardanti la gestione degli account:
+<ul>
+    <li>
+        Nella sezione 'Home'  l'operatore FRANK visualizza le notifiche ricevute, relative alle ultime azioni che sono state eseguite relativamente agli account.
+        E' inoltre possibile visualizzare i dettagli delle relative notifiche tramite un apposito link 'visualizza dettaglio' riportato vicino alla notifica.
+    </li><br/>
+
+      <li>
+            Nella sezione 'Elenco Account' l'operatore FRANK visualizza un elenco di tutti gli account che sono presenti nel sito compresi di ID, Username, Password, Ruolo e Stato dell'account in questione. 
+            In questa pagina sono inoltre presenti dei filtri che, al bisogno, possono semplificare la ricerca di account secondo 3 criteri:<br/>
+            <ul><br/>
+                <li>In base al ruolo</li><br/>
+                <li>in base allo stato</li><br/>
+                <li>effettuando una ricerca specifica tramite Username</li><br/>
+            </ul>
+            Questa sezione prevede inoltre la presenza di 4 bottoni per singolo account con differenti funzionalita':
+            <ul><br/>
+              <li>
+                Pulsante 'Dettagli' rimanda, tramite link, alla pagina relativa alle informazioni associate a ciascun account 
+                (anagrafica del paziente, informazioni relative ad una ditta farmaceutica, etc.).
+              </li><br/>
+              <li>
+                Pulsante 'Sospendi' fornisce la possibilita'  di sospendere uno specifico account. 
+              </li><br/>
+              <li>
+                Pulsante 'Riabilita' permette di riabilitare un account che era stato precedentemente sospeso, facendolo tornare allo stato di 'Attivo'.
+              </li><br/>
+              <li>
+                Pulsante 'Elimina' permette di eliminare definitivamente un account dal Database.
+              </li><br/>
+            </ul>
+            Inoltre per ogni account e' presente lo stato con relativa icona, sono presenti 3 tipi di stati:
+            <ul><br/>
+              <li>Attivo</li><br/>
+              <li>In attesa</li><br/>
+              <li>Sospeso</li><br/>
+            </ul>
+      </li>
+
+  <li>
+    Nella sezione 'Crea Account RESP/PRES/MED' l'operatore FRANK puo' creare dei nuovi account di responsabili, presidenti e medici inserendo tutti i campi richiesti, 
+    come ad esempio Ruolo tramite menu' a tendina, ID, Nome, Cognome, etc.
+    Gli account creati verranno successivamente inseriti nel Database, diventando da subito attivi e risulteranno visibili nella sezione 'elenco account', visualizzabile sempre tramite accesso FRANK.
+  </li><br/>
+
+  <li>
+    Nella sezione 'Convalida Account PAZ'  l'operatore FRANK visualizza la lista di tutti gli account dei pazienti che sono ancora in attesa di convalida 
+    compresi ID relativo all'account, Username, Password, codice ruolo e stato, e' inoltre presente un pulsante 'Dettagli' che rimanda alla pagina specifica del singolo paziente dove e' possibile visualizzare 
+    la sua anagrafica in dettaglio, alla fine della quale e' presente un pulsante per la convalida
+  </li>
+
+</ul>
+</p> <br>
+
+<p>
+<h4>RESP</h4>
+Dopo aver effettuato il login, il RESP ha accesso alla sua area riservata. Le pagine riservate al RESP hanno diverse funzionalita': 
+<ul>
+  <li>Nella sezione "Home" il RESP visualizza eventuali richieste di revisione da parte del PRES per gli studi clinici di sua   
+      competenza. E' possibile visualizzare i dettagli tramite l'apposito pulsante.</li><br/>
+
+  <li>Nella sezione "crea Farm" il Responsabile puo' creare l'account per tutte quelle 
+      aziende farmaceutiche che hanno intenzione di finanziare gli studi che si andranno 
+      ad effettueare nel centro di sperimentazione. Il modulo da compilare prevede di 
+      inserire tutti quei dati descrittivi dell'azienda e i relativi contatti . Inoltre e' 
+      il responsabile stesso a definire l'id, l'username e la password che poi verranno 
+      assegnate alla ditta stessa.</li><br/>
+
+  <li>Nella sezione "Crea SSC" il RESP crea un nuovo studio clinico, compilando, anche in 
+      piu' riprese, la Scheda di Studio Clinico.<br/>
+      Per una corretta compilazione, devono essere riportate le seguenti voci:
+     <ul type="circle"> 
+       <li>La patologia (e la corrispondente area terapeutica) per la quale si vuole 
+           pianificare una sperimentazione clinica;</li> 
+       <li>La durata dello studio;</li>
+       <li>Il costo fisso di spesa, relativo allo svolgimento di analisi e all'uso della    
+           strumentazione</li>  
+       <li>Il numero di pazienti arruolabili, assicurandosi di reclutare una 
+           popolazione sufficientemente ampia ed omogenea per dare significativita'
+           statistica all'analisi dei risultati.</li> 
+       <li>Il numero di convocazioni previste per ogni paziente arruolato e il relativo 
+           incentivo corrisposto al termine della partecipazione allo studio</li>  
+       <li>Una breve descrizione, nella quale vengono specificate le finalita' e le 
+           modalita' di svolgimento dello studio</li>
+       <li>La popolazione target</li>
+     </ul>
+Al termine della compilazione, il RESP puo' creare la SSC (che verra' inserita nella sezione "I miei studi") oppure puo' reimpostare il modulo di creazione.</li><br/>
+
+  <li>Nella sezione "I miei studi" il RESP puo' visualizzare la lista delle SSC di cui e' 
+      responsabile.<br/>
+      Per le sole SSC concluse puo' compilare i risultati dello studio clinico. Questi 
+      risultati, dopo essere stati salvati, saranno visualizzabili in qualunque momento, 
+      cliccando sull'apposita voce.<br/>
+      Per tutte le SSC, invece, e' possibile visualizzare una pagina di dettaglio, 
+      cliccando sull'apposito pulsante. In questa pagina si possono compiere diverse 
+      operazioni, tra cui:
+     <ul type="circle">
+       <li><i>Modificare la SSC:</i> questa operazione e'riservata alle SSC in stato di 'Bozza' e a quelle giudicate come
+              rivedibili dal PRES e consente di modificare le informazioni della SSC corrente oppure completare eventuali 
+              voci che erano state omesse al momento della compilazione</li>
+       <li><i>Chiudere la SSC:</i> questa operazione, anch'essa riservata alle SSC in stato di 'Bozza' e a quelle giudicate 
+              come rivedibili, comporta l'apertura di una pagina di conferma e l'invio di una notifica, ed eventualmente di 
+              una risposta alla richiesta di revisione, al PRES per l'approvazione 
+       </li>
+       <li><i>Visualizzare le informazioni di dettaglio dei pazienti iscritti:</i> 
+              cliccando sull'apposito pulsante si accede ad una nuova pagina, in cui e' 
+              riportato l'elenco dei pazienti attualmente iscritti allo studio 
+              clinico. Per ogni paziente si possono visualizzare le informazioni di 
+              dettaglio (anagrafica, altri studi attivi + info responsabile, appuntamenti 
+              previsti e effettuati) e il RESP, sulla base di queste informazioni, puo' 
+              decidere se arruolare o scartare il paziente. </li>
+     </ul>
+</li><br/>
+
+  <li>Nella sezione "Fissa appuntamenti" il responsabile visualizza l'elenco dei pazienti che partecipa ad uno studio scelto grazie ad un filtro.
+Premendo sul tasto "Appuntamenti" (presente per ogni riga della tabella) il RESP accedera' all'area di compilazione del singolo appuntamento (per piu' appuntamenti si dovra' ripetere l'operazione) inserendo data, ora  e luogo in cui verra' svolto. Al di sotto del modulo di compilazione verra' visualizzato l'elenco degli appuntamenti che sono stati fissati. A ogni riga saranno disponibili due tasti che permetteranno la modifica o la cancellazione dell'appuntamento scelto.</li><br/>
+
+  <li>Nella sezione "Supervisione appuntamenti" il RESP ha la possibilita' di visualizzare tutti quei pazienti che hanno autocertificato la presenza all'appuntamento (visualizzando solo quelli di cui e' responsabile), andando poi a confermare la presenza.</li><br/>
+</ul>
+</p><br>
+
+
+
+<P>
+<h4>PRES</h4>
+Dopo aver effettuato il login, il PRES ha accesso alla sua area riservata: ora potra' consultare i contenuti a lui dedicati oltre ai suoi dati personali.<br/>
+
+<ul>
+<li>Dalla sezione home potra' accedere, schiacciando su trial clinici ,alla pagina 'Studi Clinici' dove ci sono  tutte le schede di studio clinico (SSC), inviate dai RESP , che sono state appena chiuse e quindi da accettare,annullare oppure puo' definirli 'da rivedere' e rimandarli ai RESP come stato di bozza. Utilizzando i filtri, e' possibile effettuare una ricerca per Nome dello studio. </li><br/>
+<li>
+Dalla pagina 'Studi Clinici' si puo' accedere alla pagine con le descrizione dettagliate delle SSC, schiacciando visualizza, le quali ,una volta annullate o approvate, verrano spostate all'interno della pagina 'i miei studi', che contiene per ogni PRES i propri studi clinici approvati e annullati.
+</li><br/>
+</ul>
+</p>
+
+<P>
+<h4>PAZ</h4>
+Dopo essersi registrato al sito oppure dopo aver effettuato il login il paziente avra' accesso alla sua area riservata, dove potra' consultare tutti i contenuti relativi agli studi clinici ed alle proprie informazioni personali precedentemente fornite. </br>
+Nella sezione 'Home' sono riportate tutte le notifiche relative all'iscrizione o alla partecipazione agli studi clinici e la loro data, sara' possibile visualizzarle tramite il link riportato.</br>
+Nella pagina 'studi attivi' sono elencati tutti gli studi clinici a cui il paziente non si e' ancora iscritto, in alcuni studi ÃÂ¨ necessaria previa visita medica; quindi, all'iscrizione sara' necessario inserire una preferenza sul medico che la svolgera'.</br>
+Nella tabella sono presenti dei filtri per vagliare gli studi attivi in base alle loro differenti caratteristiche quali: </br>
+<ul>
+  <li>Descrizione dello studio;</li>
+  <li>Area Terapeutica;</li>
+  <li>Popolazione target;</li>
+  <li>Responsabile della ricerca;</li>
+  <li>Data inizio;</li>
+  <li>Data fine;</li>
+  <li>Incentivo percepito.</li>
+</ul></br>
+Nella sezione 'I miei studi' il volontario visualizza gli studi clinici ai quali si e' gia' iscritto e la propria posizione indicata dai simboli riportati nella legenda. </br>
+E' inoltre possibile abbandonare lo studio prima ancora di essere stati arruolati (solo nel caso in cui non preveda una visita medica annessa) oppure scoprirne ulteriori dettagli, quali: appuntamenti fissati, svolti, l'incentivo percepito dopo aver partecipato a tutti gli appuntamenti previsti e le specifiche riguardanti la visita medica, qualora sia prevista dallo studio, in questa sezione il paziente potra' visualizzarne i risultati per controllare se sia risultato idoneo allo studio. </br>
+La sezione 'portafoglio' comprende tutti i dati relativi agli incentivi percepiti, sia dal singolo studio, sia nella loro totalita'. </br>
+Il calendario raccoglie tutti gli appuntamenti (fissati o svolti) dal volontario, con differenti opzioni di visualizzazione. Da qui e' possibile simulare la presenza al centro prima di ogni incontro.</br>
+Inoltre, dal logo posto nel banner superiore si puo' tornare alla Home del sito, mentre cliccando sull'icona dell'omino si visualizzano tutte le generalita' inserite in precedenza e possono essere modificate; se si desidera effettuare il logout dalla propria area riservata e' necessario selezionare l'apposito simbolo posto in alto a destra.</br>
+</p> <br>
+
+<P>
+<h4>FARM</h4>
+
+Dopo aver effettuato il login, la FARM ha accesso alla sua area riservata. Le pagine riservate a FARM hanno diverse funzionalita': 
+
+<ul>
+<li>nella sezione "Home" la FARM ha la possibilita' di visualizzare i nuovi studi clinici inviati dal responsabile (RESP) tramite il link riportato.</li><br/>
+
+<li>nella sezione "Studi clinici" la FARM ha la possibilita' di visualizzare tutte le schede degli studi clinici (SSC) in attesa di approvazione (ovvero con stato "Inviato") e/o gia' approvate (anche quelle non progettate dal RESP che l'ha reclutata). <br/>
+Utilizzando i filtri, e' possibile effettuare una ricerca per Stato o Nome Studio. <br/>
+Ha anche la possibilita' di visualizzare il dettaglio di ogni singola SSC (escluse le informazioni individuali dei pazienti). <br/>
+Se la SSC si trova in stato approvato, FARM ha la possibilita' di supportarla economicamente tramite donazioni. Dopo aver selezionato l'importo (uguale o inferiore al residuo per coprire il budget), FARM puo' scegliere attraverso quale metodo effettuare il pagamento (con Carta di credito/debito, Paypal, Bonifico bancario o a rate). Prima della conferma di pagamento, viene mostrata a FARM una pagina di riepilogo, per verificare che l'importo, la SSC finanziata, il numero di rate e il metodo di pagamento siano quelli desiderati. A seguito del versamento, se il budget risulta interamente coperto, lo studio diventa automaticamente attivo.</li><br/>
+
+<li>nella sezione "I miei studi" la FARM ha la possibilita' di visualizzare tutte le SSC da lei supportate. Per ogni SSC viene mostrato l'importo, la data del finanziamento e il metodo di pagamento (oltre al numero delle rate con il quale si e' deciso di pagare l'intero importo, se e' stato selezionato un metodo di pagamento rateizzato, in caso contrario il numero della rate viene settato a 0). <br/>
+Utilizzando i filtri, e' possibile effettuare una ricerca per Nome Studio e Stato.  
+<br/>
+Come in "Studi clinici", la FARM ha la possibilita' di visualizzare il dettaglio di ogni singola SSC (escluse le informazioni individuali dei pazienti).</li>
+</ul>
+</p>
+
+<P>
+<h4>MED</h4>
+Dopo aver effettuato il login, il MED ha accesso alla sua area riservata: ora potra' consultare i contenuti a lui dedicati oltre ai suoi dati personali.<br/>
+
+<ul>
+<li>Dalla sezione home potra' accedere alla pagina 'Pazienti' dove  sono elencati tutti i pazienti che si sono iscritti a uno studio per cui e' richiesta una visita medica e che , dunque, dovranno sottoporsi ad essa. </li><br/>
+<li>
+Il medico valutera' l'idoneita'  del paziente allo studio, potra' vedere anche i dettagli dello studio, le informazioni del paziente e attraverso la pagina 'Storico Visite' accedera' alle visite effettuate e ai relativi dettagli.
+</li><br/>
+</ul>
+</p>
+</td>
+</tr>
+</table>
+</DIV>
+</font>
+
+  <HR ALIGN="CENTER" WIDTH="90%"/>
+  <tr>
+    <td> &nbsp </td>
+  </tr>
+  <ADDRESS align="center">Questa Pagina e' stata realizzata: Borgognoni, Bonamico, Curti, Canegallo, Lolla, Lombardi, Maiocchi, Marchetti, Onetti </ADDRESS>
+  <tr>
+    <td> &nbsp </td>
+  </tr>
+
+</BODY>
+</font>
+</HTML>

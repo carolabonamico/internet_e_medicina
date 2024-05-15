@@ -1,0 +1,19 @@
+      <tr width="100%" height="60">
+        <td>
+          <div class="menu">
+          <table width="100%" cellspacing="0" >
+            <tr style="color:white" colspan="3" height="60">
+              <th class="list" width="34%"><a href="PRES_home.jsp#pagina17" id="pagina17"> Home </th>
+              <th class="list" width="33%"><a href="PRES_studiclinici.jsp#pagina18" id="pagina18"> Studi Clinici </th>
+              <th class="list" width="33%"><a href="PRES_imieistudi.jsp#pagina19" id="pagina19"> I miei studi </th>
+            </tr>
+          </table>
+          </div>
+        </td>
+      </tr>
+    </div>
+
+    <div style="margin-top:185px;height:75%;">
+    <tr width="100%">
+      <td valign="middle" align="center" bgcolor="white">
+        <table border="0"  cellspacing="0" width="100%" height="100%" cellpadding="35" style="color:#2A5951">

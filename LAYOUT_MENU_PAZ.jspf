@@ -1,0 +1,21 @@
+      <tr width="100%" height="60">
+        <td>
+          <div class="menu">
+          <table width="100%" cellspacing="0">
+            <tr style="color:white" colspan="5" height="60">
+              <th class="list" width="20%"><a href="PAZ_home.jsp#pagina12" id="pagina12"> Home </th>
+              <th class="list" width="20%"><a href="PAZ_studiattivi.jsp#pagina13" id="pagina13"> Studi attivi </th>
+              <th class="list" width="20%"><a href="PAZ_imieistudi.jsp#pagina14" id="pagina14"> I miei studi </th>
+              <th class="list" width="20%"><a href="PAZ_portafoglio.jsp#pagina15" id="pagina15"> Portafoglio </th>
+              <th class="list" width="20%"><a href="PAZ_calintegrato.jsp#pagina16" id="pagina16"> Calendario </th>
+            </tr>
+          </table>
+          </div>
+        </td>
+      </tr>
+    </div>
+
+    <div style="margin-top:185px;height:75%;">
+    <tr width="100%">
+      <td valign="middle" align="center" bgcolor="white">
+        <table border="0" cellspacing="0" width="100%" height="100%" cellpadding="40" style="color:#2A5951">

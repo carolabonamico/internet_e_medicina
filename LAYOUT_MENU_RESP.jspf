@@ -1,0 +1,22 @@
+      <tr width="100%" height="60">
+        <td>
+          <div class="menu">
+          <table width="100%" cellspacing="0">
+            <tr style="color:white" colspan="6" height="60">
+              <th class="list" width="16%"><a href="RESP_home.jsp#pagina20" id="pagina20"> Home</a></th>
+              <th class="list" width="16%"><a href="RESP_crea_SSC.jsp#pagina21" id="pagina21">Crea SSC </a></th>
+              <th class="list" width="16%"><a href="RESP_studi_pers_DEF.jsp#pagina22" id="pagina22">I miei studi</a></th>
+              <th class="list" width="16%"><a href="RESP_crea_farm.jsp#pagina23" id="pagina23">Crea account FARM</a></th>
+              <th class="list" width="16%"><a href="RESP_appuntamenti.jsp#pagina24" id="pagina24">Fissa appuntamenti</a></th>
+              <th class="list" width="16%"><a href="RESP_presenz_appunt.jsp#pagina25" id="pagina25">Supervisione appuntamenti</a></th>
+            </tr>
+          </table>
+          </div>
+        </td>
+      </tr>
+    </div>
+
+    <div style="margin-top:185px;height:75%;">
+    <tr width="100%">
+      <td valign="middle" align="center" bgcolor="white">
+        <table border="0" cellspacing="0" width="100%" height="100%" cellpadding="35" style="color:#2A5951">

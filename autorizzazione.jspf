@@ -1,0 +1,6 @@
+<!-- TAGLIOLA DI SICUREZZA -->
+<c:if test="${(not empty ruolo_pagina) && (ruolo_pagina != ruolo_user)}">
+  <c:set var="errmsg" scope="request">Si e' effettuato l'accesso ad una pagina riservata 
+   al ruolo ${ruolo_pagina}.<br/>Ritentare l'accesso!</c:set>
+  <jsp:forward page="HOME_areariservata.jsp"/>
+</c:if>
