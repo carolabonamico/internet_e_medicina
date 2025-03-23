@@ -26,7 +26,7 @@ Una descrizione completa delle funzionalità del sito e delle sue sezioni è dis
 
 ### Sito Web Eseguito su Server Dedicato
 
-Il sito web ed il database sono stati entrambi rispettivamente eseguiti ed ospitati su un server dedicato messo a disposizione dal professore Giordano Lanzola (contattabile al link seguente). Il sito era raggiungibile a questo [indirizzo](https://intermed.unipv.it:8443/intermed/) previa registrazione come studente e conseguente login.
+Il sito web ed il database sono stati entrambi rispettivamente eseguiti ed ospitati su un server dedicato messo a disposizione dal professore Giordano Lanzola (contattabile al link indicato di seguito). Il sito era raggiungibile a questo [link](https://intermed.unipv.it:8443/intermed/) previa registrazione come studente e conseguente login.
 
 ### Autori del Progetto
 
@@ -39,7 +39,3 @@ Il sito web ed il database sono stati entrambi rispettivamente eseguiti ed ospit
 - Maiocchi
 - Marchetti
 - Onetti
-
----
-
-Per ulteriori dettagli, si prega di consultare la documentazione interna al progetto o di contattare il professore.
